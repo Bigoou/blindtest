@@ -10,21 +10,21 @@ let currentTimeout = null
 // Audio pour les GIFs
 let audioInstance = null
 
-// Bibliothèque de sons aléatoires (fichiers locaux)
+// Bibliothèque de sons aléatoires (servis depuis /public)
 const SOUND_LIBRARY = [
-  '/src/assets/sounds/Effet sonore fart.mp3',
-  '/src/assets/sounds/Vine Boom Sound.mp3',
-  '/src/assets/sounds/Frank LeBoeuf effet sonore.mp3',
-  '/src/assets/sounds/Son de révélation de rôle Among Us.mp3',
-  '/src/assets/sounds/Tonton H effet sonore.mp3',
-  '/src/assets/sounds/Anime Ahh Sound Effect.mp3',
-  '/src/assets/sounds/Ringtone Italian Brainrot.mp3',
-  '/src/assets/sounds/Arabe effet sonore.mp3',
-  '/src/assets/sounds/Goofy Car Horn Sound Effect.mp3',
-  '/src/assets/sounds/Oui je suis raciste.mp3',
-  "/src/assets/sounds/T'es en caleçon ta la barre.mp3",
-  '/src/assets/sounds/TK78 effet sonore.mp3',
-  '/src/assets/sounds/excuse-moi-taurais-pas-un-zob-dans-lcul.mp3'
+  '/sounds/Effet sonore fart.mp3',
+  '/sounds/Vine Boom Sound.mp3',
+  '/sounds/Frank LeBoeuf effet sonore.mp3',
+  '/sounds/Son de révélation de rôle Among Us.mp3',
+  '/sounds/Tonton H effet sonore.mp3',
+  '/sounds/Anime Ahh Sound Effect.mp3',
+  '/sounds/Ringtone Italian Brainrot.mp3',
+  '/sounds/Arabe effet sonore.mp3',
+  '/sounds/Goofy Car Horn Sound Effect.mp3',
+  '/sounds/Oui je suis raciste.mp3',
+  "/sounds/T'es en caleçon ta la barre.mp3",
+  '/sounds/TK78 effet sonore.mp3',
+  '/sounds/excuse-moi-taurais-pas-un-zob-dans-lcul.mp3'
 ]
 
 // Fonction pour obtenir un son aléatoire
