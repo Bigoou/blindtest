@@ -1,0 +1,15 @@
+# Instructions pour ajouter un son de célébration
+
+1. Renommez ce fichier en enlevant l'extension .example
+   celebration.mp3.example -> celebration.mp3
+
+2. Remplacez ce fichier par votre fichier audio MP3
+
+3. Formats supportés : MP3, WAV, OGG
+
+4. Pour utiliser plusieurs sons différents, ajoutez-les dans ce dossier
+   et référencez-les dans useGifLibrary.js
+
+5. Exemple d'utilisation dans le code :
+   - Son par défaut : '/src/assets/sounds/celebration.mp3'
+   - Sons personnalisés par GIF : ajoutez la propriété soundUrl à chaque GIF
